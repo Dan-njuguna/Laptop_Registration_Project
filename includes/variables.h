@@ -30,6 +30,7 @@ typedef struct
 /* --- Macros --- */
 #define REG_OK 0
 #define REG_ERR 1
+#define DATE_LEN 11
 #define create_new_screen() (puts("\033[?1049h\033[H"))
 #define exit_screen() (puts("\033[?1049l"))
 #define R refresh()
